@@ -4,7 +4,6 @@ The University Alumni Events website aims to provide a platform for university a
 **Trademark**
 Name: AlumniConnect.
 
-
 **Features**
 **Home/Landing Page**
 The landing page of the website serves as an introduction to AlumniConnect. It includes the following sections:
