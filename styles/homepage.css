@@ -1,0 +1,312 @@
+/* Body Css Styling*/
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url('body.jpg');
+}
+
+/*Header Css styling*/
+header {
+  display: flex;
+  flex-direction: row;
+  background-image: url('header_background.png');
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 140px;
+}
+.Alumni_connect {
+  border-radius: 50%;
+}
+.trademark {
+  color: white;
+}
+.nav_links {
+  margin: 49px 0 0;
+  height: 20px;
+  width: 302px;
+}
+.nav_links a {
+  padding: 0 6px 0;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/*Main Css Styleing*/
+main {
+}
+.banner {
+}
+.purpose {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.purpose_para {
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.obj_heading {
+  text-align: center;
+  color: white;
+}
+.objectives {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: white;
+}
+.objectives div {
+  flex: 300px;
+}
+.list_para {
+  margin: 0 0 0 20px;
+}
+.pad_objs {
+  padding: 0 0 0 30px;
+}
+.purpose_container {
+  background-image: url('purpose.jpg');
+  height: 190px;
+  padding-top: 3px;
+}
+.objective_container {
+  background-image: url('objective.jpg');
+  margin-top: -31px;
+  padding-top: 20px;
+}
+.image_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 30px 0;
+}
+.vibrant_community {
+  background-color: #022D36;
+  height: 240px;
+  padding-top: 15px;
+}
+.community {
+  text-align: center;
+  color: white;
+  padding-bottom: 25px;
+}
+.upcoming_events {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.upcoming_events div {
+  background-color: #080402;
+  border-radius: 15px;
+  height: 350px;
+  width: 1100px;
+}
+/*
+.events {
+  padding: 15px 30px 0;
+}
+*/
+.category1 {
+  background-color: #6C7C59;
+  padding: 30px 30px 30px;
+}
+.event_category {
+  padding-bottom: 25px;
+  color: white;
+  text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+  .learn_more1 {
+    position: relative;
+    top: 40px;
+    left: 30%;
+    width: 100px;
+    height: 20px;
+  }
+  .learn_more2 {
+    position: relative;
+    top: 60px;
+    left: 30%;
+    width: 100px;
+    height: 20px;
+  }
+  .learn_more3 {
+    position: relative;
+    top: 40px;
+    left: 30%;
+    width: 100px;
+    height: 20px;
+  }
+  .learn_more4 {
+    position: relative;
+    top: 66px;
+    left: 30%;
+    width: 100px;
+    height: 20px;
+  }
+  .event_img{
+    position: relative;
+    left: 29%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .learn_more1 {
+    position: relative;
+    top: 3px;
+    left: 20%;
+    width: 100px;
+    height: 20px;
+  }
+  .learn_more2 {
+    position: relative;
+    top: 44px;
+    left: 20%;
+    width: 100px;
+    height: 20px;
+  }
+  .learn_more3 {
+    position: relative;
+    top: 42px;
+    left: 20%;
+    width: 100px;
+    height: 20px;
+  }
+  .learn_more4 {
+    position: relative;
+    top: 28px;
+    left: 20%;
+    width: 100px;
+    height: 20px;
+  }
+  .event_img{
+    position: relative;
+    left: 18%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .learn_more5 {
+    position: relative;
+    top: 60px;
+    left: 30%;
+    width: 100px;
+    height: 20px;
+  }
+  .learn_more6 {
+    position: relative;
+    top: 45px;
+    left: 30%;
+    width: 100px;
+    height: 20px;
+  }
+  .learn_more7 {
+    position: relative;
+    top: 45px;
+    left: 30%;
+    width: 100px;
+    height: 20px;
+  }
+  .learn_more8 {
+    position: relative;
+    top: 45px;
+    left: 30%;
+    width: 100px;
+    height: 20px;
+  }
+  .event_img1 {
+    position: relative;
+    left: 34%;
+  }
+  .event_img11 {
+    position: relative;
+    left: 31%;
+  }
+  .event_img13 {
+    position: relative;
+    left: 28%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .learn_more5 {
+    position: relative;
+    top: 70px;
+    left: 17%;
+    width: 100px;
+    height: 20px;
+  }
+  
+  .learn_more6 {
+    position: relative;
+    top: 35px;
+    left: 17%;
+    width: 100px;
+    height: 20px;
+  }
+  
+  .learn_more7 {
+    position: relative;
+    top: 50px;
+    left: 17%;
+    width: 100px;
+    height: 20px;
+  }
+  
+  .learn_more8 {
+    position: relative;
+    top: 53px;
+    left: 17%;
+    width: 100px;
+    height: 20px;
+  }
+  .event_img1{
+    position: relative;
+    left: 27%;
+  }
+  .event_img11 {
+    position: relative;
+    left: 20%;
+  }
+  .event_img13 {
+    position: relative;
+    left: 17%;
+  }
+}
+
+.event_date, .event_title, .event_location {
+  text-align: center;
+  color: #F5FEFD;
+}
+.prof_dev1, .prof_dev2, .prof_dev3, .camp_eve1, .camp_eve2, .camp_eve3 {
+  margin: 0 10px 0 0;
+}
+.category2 {
+  background-color: #607D3B;
+  padding: 30px 30px 30px;
+}
+
+/*Footer Css Styling*/
+footer {
+  background-image: url('footer.jpg');
+  height: 200px;
+}
+.footer_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.alumni_cont {
+  margin-top: 10px; 
+}
+.logo_cont {
+  margin-top: 40px;
+}
+footer p {
+  text-align: center;
+  margin-top: 40px;
+}
+.logo_count a {
+  margin: 0 1em 0 0;
+}
