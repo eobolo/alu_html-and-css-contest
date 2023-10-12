@@ -2,7 +2,9 @@
 **Description**
 The University Alumni Events website aims to provide a platform for university alumni to stay connected with their alma mater and participate in upcoming events. The website facilitates alumni engagement by categorizing events into Professional Development and Campus Events, allowing alumni to easily find events that align with their interests.
 **Trademark**
-Name: AlumniConnect
+Name: AlumniConnect.
+
+
 **Features**
 **Home/Landing Page**
 The landing page of the website serves as an introduction to AlumniConnect. It includes the following sections:
