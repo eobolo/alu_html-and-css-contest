@@ -1,24 +1,46 @@
+
 /* Body Css Styling*/
 body {
   display: flex;
   flex-direction: column;
+}
+.body1 {
   background-image: url('body.jpg');
 }
-
+.body2 {
+  background-image: url('body1.jpg');
+}
+.body3 {
+  background-image: url('body3.jpg');
+}
 /*Header Css styling*/
 header {
   display: flex;
   flex-direction: row;
-  background-image: url('header_background.png');
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: 140px;
+}
+.header_image1 {
+  background-image: url('header_background.png');
+}
+.header_image2 {
+  background-image: url('header_background1.jpg');
+}
+.header_image3 {
+  background-image: url('header_background3.png');
 }
 .Alumni_connect {
   border-radius: 50%;
 }
 .trademark {
-  color: white;
+  color: black;
+}
+.trademark1 {
+  color: #281E5D;
+}
+.trademark2 {
+  color: #D0312D;
 }
 .nav_links {
   margin: 49px 0 0;
@@ -27,8 +49,15 @@ header {
 }
 .nav_links a {
   padding: 0 6px 0;
+}
+.nav_links_color1 {
   color: white;
-  background-color: rgba(0, 0, 0, 0.5);
+}
+.nav_links_color2 {
+  color: #281E5D;
+}
+.nav_links_color3 {
+  color: #D0312D;
 }
 /*Main Css Styleing*/
 main {
@@ -37,11 +66,21 @@ main {
 }
 .purpose {
   text-align: center;
+}
+.purpose_color1, .purpose_para_color1 {
   color: rgba(255, 255, 255, 1);
+}
+.purpose_color2, .purpose_para_color2 {
+  color: #080402;
+}
+.purpose_color3, .purpose_para_color3 {
+  color: #65350F;
+}
+.purpose_color4, .purpose_para_color4 {
+  color: #ED2939;
 }
 .purpose_para {
   text-align: center;
-  color: rgba(255, 255, 255, 1);
 }
 .obj_heading {
   text-align: center;
@@ -64,9 +103,20 @@ main {
   padding: 0 0 0 30px;
 }
 .purpose_container {
-  background-image: url('purpose.jpg');
   height: 190px;
   padding-top: 3px;
+}
+.purpose_cont1 {
+  background-image: url('purpose.jpg');
+}
+.purpose_cont2 {
+  background-image: url('purpose1.jpg');
+}
+.purpose_cont3 {
+  background-image: url('purpose2.png');
+}
+.purpose_cont4 {
+  background-image: url('purpose3.jpg');
 }
 .objective_container {
   background-image: url('objective.jpg');
