@@ -20,22 +20,26 @@ header {
 }
 
 /* Navigation Links */
-.nav_links {
-  margin: 49px 0 0;
-  height: 20px;
-  width: 302px;
+@media screen and (min-width: 769px) {
+  .nav_links {
+    margin: 30px 0 0;
+    height: 20px;
+    width: 315px;
+  }
 }
 
+@media screen and (max-width: 768px) {
+  .nav_links {
+    margin: 15px 0 0;
+    height: 15px;
+    width: 315px;
+  }
+}
 .nav_links a {
   padding: 0 6px 0;
-}
-
-.nav_links_color1 {
+  text-decoration: none;
   color: white;
-}
-
-.nav_links_color2 {
-  color: #281E5D;
+  font-size: 20px;
 }
 
 /* Main CSS Styling */
@@ -85,6 +89,9 @@ main {
   cursor: pointer;
 }
 
+.event_img {
+  width: 600px;
+}
 /* Event Categories */
 .event-category {
   text-align: center;
