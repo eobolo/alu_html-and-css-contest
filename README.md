@@ -4,7 +4,8 @@
 The University Alumni Events website aims to provide a platform for university alumni to stay connected with their alma mater and participate in upcoming events. The website facilitates alumni engagement by categorizing events into Professional Development and Campus Events, allowing alumni to easily find events that align with their interests.
 
 **Trademark.**
-Name: AlumniConnect:Is a website designed for university alumni to check and participate in upcoming events. 
+
+Name: AlumniConnect is a website designed for university alumni to check and participate in upcoming events. 
 
 **Features.**
 
@@ -14,21 +15,21 @@ Welcome message: A warm welcome message that highlights the importance of alumni
 Mission statement: A brief description of the website's objectives, emphasizing the goal of fostering lifelong connections between alumni and the university community.
 Event categories: An overview of the two event categories - **Professional Development** and **Campus Events**, showcasing the diversity of opportunities available to alumni.
 
-**Events**
+**Events.**
 Update the event data in the Events page to reflect the events for each category. 
 You can use HTML for the structure and include images and videos where necessary.
 
-**About**
+**About.**
 The About section provides information about the website and its team members. It includes:
 Website Information.
 A brief overview of AlumniConnect's purpose and vision.
 Highlighting the importance of alumni involvement in shaping the university community.
 Technical Expertise:
 Showcase the technical expertise of the team behind AlumniConnect.
-Mention the technologies used to develop the website, such as HTML, CSS, JavaScript, and backend frameworks (if applicable).
+Mention the technologies used to develop the website, such as HTML, CSS, and JavaScript.
 Optionally include a profile picture and brief bio for each team member.
 
-**Contact Us**
+**Contact Us.**
 The Contact Us section allows students to reserve their slots for events they wish to participate in. It includes:
 Contact Form:
 A form where students can enter their name, email address, event category, event title, and any additional comments or questions.
@@ -49,5 +50,6 @@ To run the University Alumni Events website locally on your machine, follow thes
 4. Customize the content and design according to the provided categories and events.
 
 **Feedback and Contributions.**
+
 Your feedback and contributions to enhance these HTML/CSS scripts are highly appreciated. 
 Please feel free to submit issues, feature requests, or pull requests as needed.
