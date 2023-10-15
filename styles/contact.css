@@ -2,15 +2,15 @@
 body {
   display: flex;
   flex-direction: column;
-  /*background-image: url('body.jpg')*/;
-  background-color: #C5C6D0;
+  /*background-image: url('body.jpg')*/
+  background-color: #c5c6d0;
 }
 
 /*Header Css styling*/
 header {
   display: flex;
   flex-direction: row;
-  background-image: url('contact_header.jpg');
+  background-image: url("contact_header.jpg");
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: 160px;
@@ -33,11 +33,11 @@ header {
 }
 /*Main Css Styling*/
 section {
-  background-color: #C5C6D0;
+  background-color: #c5c6d0;
 }
 .personal_info {
   height: 350px;
-  background-image: url('fieldset1.jpg');
+  background-image: url("fieldset1.jpg");
 }
 .personal_info_legend {
   text-align: center;
@@ -49,11 +49,11 @@ section {
   margin: 50px 0 20px;
 }
 .input_space label {
-  color: #B90E0A;
+  color: #b90e0a;
 }
-.input_space input{
+.input_space input {
   border-radius: 5px;
-  border: medium solid #60100B;
+  border: medium solid #60100b;
 }
 .message_info {
   height: 670px;
@@ -68,55 +68,55 @@ section {
   font-size: 30px;
 }
 .message_info {
-  background-image: url('fieldset2.jpg');
+  background-image: url("fieldset2.jpg");
 }
 .message_label {
-  color: #900D09;
+  color: #900d09;
 }
 .contact_space select {
-  color: #795C34;
+  color: #795c34;
   border-radius: 5px;
-  border: medium solid #60100B;
+  border: medium solid #60100b;
 }
 .contact_space textarea {
   width: 350px;
   height: 100px;
-  border: medium solid #60100B;
+  border: medium solid #60100b;
   border-radius: 5px;
   background-color: black;
   color: white;
 }
 .high {
   background-color: #030104;
-  color: #D21404;
+  color: #d21404;
 }
 .medium {
   background-color: #030104;
-  color: #FFFD37;
+  color: #fffd37;
 }
 .low {
   background-color: #030104;
-  color: #5DBB63;
+  color: #5dbb63;
 }
 .text_message {
   background-color: #030104;
-  color: #1520A6;
+  color: #1520a6;
 }
 .email {
   background-color: #030104;
-  color: #1034A6;
+  color: #1034a6;
 }
 .phone_call {
   background-color: #030104;
-  color: #028A0F;
+  color: #028a0f;
 }
 .whatsapp {
   background-color: #030104;
-  color: #03AC13;
+  color: #03ac13;
 }
 .event_info {
   height: 700px;
-  background-image: url('fieldset3.jpg');
+  background-image: url("fieldset3.jpg");
 }
 .event_legend {
   text-align: center;
@@ -128,23 +128,24 @@ section {
 .event_space {
   margin: 70px 0 40px;
 }
-.about_us, .choice-selection {
+.about_us,
+.choice-selection {
   color: white;
 }
 .grad_year {
-  border: medium solid #60100B;
+  border: medium solid #60100b;
   border-radius: 5px;
   background-color: #050301;
-  color: #FFD700;
+  color: #ffd700;
 }
 .register_event {
-  border: medium solid #60100B;
+  border: medium solid #60100b;
   border-radius: 5px;
   background-color: #050301;
-  color: #FFEF00;
+  color: #ffef00;
 }
 .send_form {
-  background-image: url('fieldset4.jpg');
+  background-image: url("fieldset4.jpg");
   height: 100px;
 }
 .send_form_legend {
@@ -155,9 +156,9 @@ section {
   color: black;
 }
 @media screen and (min-width: 769px) {
-.submission_space {
-  margin: 40px 0 0 47.5%;
-}
+  .submission_space {
+    margin: 40px 0 0 47.5%;
+  }
 }
 @media screen and (max-width: 768px) {
   .submission_space {
@@ -165,12 +166,12 @@ section {
   }
 }
 .submit_style {
-  border: 3px solid #022D36;
+  border: 3px solid #022d36;
   background-color: black;
   color: white;
 }
 footer {
-  background-image: url('footer1.jpg');
+  background-image: url("footer1.jpg");
   height: 200px;
   margin-top: 15px;
 }
@@ -188,7 +189,7 @@ footer {
 footer p {
   text-align: center;
   margin-top: 40px;
-  color: #FBFBF9;
+  color: #fbfbf9;
 }
 .logo_count a {
   margin: 0 1em 0 0;

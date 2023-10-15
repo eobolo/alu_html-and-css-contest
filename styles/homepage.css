@@ -4,13 +4,13 @@ body {
   flex-direction: column;
 }
 .body1 {
-  background-image: url('body.jpg');
+  background-image: url("body.jpg");
 }
 .body2 {
-  background-image: url('body1.jpg');
+  background-image: url("body1.jpg");
 }
 .body3 {
-  background-image: url('body3.jpg');
+  background-image: url("body3.jpg");
 }
 /*Header Css styling*/
 header {
@@ -21,13 +21,13 @@ header {
   height: 140px;
 }
 .header_image1 {
-  background-image: url('header_background.png');
+  background-image: url("header_background.png");
 }
 .header_image2 {
-  background-image: url('header_background1.jpg');
+  background-image: url("header_background1.jpg");
 }
 .header_image3 {
-  background-image: url('header_background3.png');
+  background-image: url("header_background3.png");
 }
 .Alumni_connect {
   border-radius: 50%;
@@ -36,10 +36,10 @@ header {
   color: black;
 }
 .trademark1 {
-  color: #281E5D;
+  color: #281e5d;
 }
 .trademark2 {
-  color: #D0312D;
+  color: #d0312d;
 }
 .nav_links {
   margin: 49px 0 0;
@@ -53,10 +53,10 @@ header {
   color: white;
 }
 .nav_links_color2 {
-  color: #281E5D;
+  color: #281e5d;
 }
 .nav_links_color3 {
-  color: #D0312D;
+  color: #d0312d;
 }
 /*Main Css Styleing*/
 main {
@@ -66,17 +66,21 @@ main {
 .purpose {
   text-align: center;
 }
-.purpose_color1, .purpose_para_color1 {
+.purpose_color1,
+.purpose_para_color1 {
   color: rgba(255, 255, 255, 1);
 }
-.purpose_color2, .purpose_para_color2 {
+.purpose_color2,
+.purpose_para_color2 {
   color: #080402;
 }
-.purpose_color3, .purpose_para_color3 {
-  color: #65350F;
+.purpose_color3,
+.purpose_para_color3 {
+  color: #65350f;
 }
-.purpose_color4, .purpose_para_color4 {
-  color: #ED2939;
+.purpose_color4,
+.purpose_para_color4 {
+  color: #ed2939;
 }
 .purpose_para {
   text-align: center;
@@ -100,30 +104,30 @@ main {
 }
 .pad_objs {
   padding: 0 0 0 30px;
-  border: 2px solid black; 
-  border-radius: 8px; 
-  padding: 20px; 
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
-  margin: 10px; 
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin: 10px;
 }
 .purpose_container {
   height: 190px;
   padding-top: 3px;
 }
 .purpose_cont1 {
-  background-image: url('purpose.jpg');
+  background-image: url("purpose.jpg");
 }
 .purpose_cont2 {
-  background-image: url('purpose1.jpg');
+  background-image: url("purpose1.jpg");
 }
 .purpose_cont3 {
-  background-image: url('purpose2.png');
+  background-image: url("purpose2.png");
 }
 .purpose_cont4 {
-  background-image: url('purpose3.jpg');
+  background-image: url("purpose3.jpg");
 }
 .objective_container {
-  background-image: url('objective.jpg');
+  background-image: url("objective.jpg");
   margin-top: -31px;
   padding-top: 20px;
 }
@@ -135,7 +139,7 @@ main {
   padding: 0 30px 0;
 }
 .vibrant_community {
-  background-color: #022D36;
+  background-color: #022d36;
   padding-top: 15px;
   padding-bottom: 30px;
 }
@@ -150,9 +154,8 @@ main {
   justify-content: space-around;
 }
 
-
 .category1 {
-  background-color: #6C7C59;
+  background-color: #6c7c59;
 }
 .event_category {
   color: white;
@@ -162,12 +165,12 @@ main {
   padding-bottom: 20px;
 }
 
-.prof_dev{
-  border: 2px solid black; 
-  border-radius: 8px; 
-  padding: 20px; 
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
-  margin: 10px 10px 10px 10px; 
+.prof_dev {
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin: 10px 10px 10px 10px;
 }
 .learn_more {
   background-color: #808080;
@@ -182,14 +185,11 @@ main {
   align-items: center;
   text-align: center;
   /* text-decoration: none; */
-  
 }
-
 
 .learn_more:hover {
   background-color: #555;
 }
-
 
 a.learn_more {
   text-decoration: none !important;
@@ -198,11 +198,11 @@ a.learn_more {
 .center-image {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 .center-image img {
-  max-width: 100%; 
-  max-height: 100%; 
+  max-width: 100%;
+  max-height: 100%;
 }
 @media screen and (min-width: 769px) {
   .learn_more1 {
@@ -212,10 +212,9 @@ a.learn_more {
     width: 100px;
     height: 20px;
   }
-  .image_container{
-      padding: 0;
-      margin: 0 30px; 
-    
+  .image_container {
+    padding: 0;
+    margin: 0 30px;
   }
 }
 
@@ -249,21 +248,17 @@ a.learn_more {
     height: 20px;
   }
 
-  .image_container{
-      padding: 0 15px; 
-      margin: 0; 
-    
+  .image_container {
+    padding: 0 15px;
+    margin: 0;
   }
-  
+
   .upcoming_events {
     flex-direction: column;
   }
-
 }
 
 @media screen and (min-width: 769px) {
- 
-
   .event_img1 {
     position: relative;
     left: 34%;
@@ -279,10 +274,7 @@ a.learn_more {
 }
 
 @media screen and (max-width: 768px) {
- 
-  
-
-  .event_img1{
+  .event_img1 {
     position: relative;
     left: 27%;
   }
@@ -296,20 +288,27 @@ a.learn_more {
   }
 }
 
-.event_date, .event_title, .event_location {
+.event_date,
+.event_title,
+.event_location {
   text-align: center;
-  color: #F5FEFD;
+  color: #f5fefd;
 }
-.prof_dev1, .prof_dev2, .prof_dev3, .camp_eve1, .camp_eve2, .camp_eve3 {
+.prof_dev1,
+.prof_dev2,
+.prof_dev3,
+.camp_eve1,
+.camp_eve2,
+.camp_eve3 {
   margin: 0 10px 0 0;
 }
 .category2 {
-  background-color: #6C7C59;
+  background-color: #6c7c59;
 }
 
 /*Footer Css Styling*/
 footer {
-  background-image: url('footer.jpg');
+  background-image: url("footer.jpg");
   height: 200px;
 }
 .footer_container {
@@ -318,7 +317,7 @@ footer {
   justify-content: space-between;
 }
 .alumni_cont {
-  margin-top: 10px; 
+  margin-top: 10px;
 }
 .logo_cont {
   margin-top: 40px;
@@ -330,4 +329,3 @@ footer p {
 .logo_count a {
   margin: 0 1em 0 0;
 }
-

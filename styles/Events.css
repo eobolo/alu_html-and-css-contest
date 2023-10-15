@@ -2,7 +2,7 @@
 body {
   display: flex;
   flex-direction: column;
-  background-image: url('eventbackground.jpg');
+  background-image: url("eventbackground.jpg");
 }
 
 /* Header CSS styling */
@@ -12,7 +12,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: 140px;
-  background-image: url('header_background1.jpg'); /* Change the header background image */
+  background-image: url("header_background1.jpg"); /* Change the header background image */
 }
 
 .Alumni_connect {
@@ -44,7 +44,7 @@ header {
 
 /* Main CSS Styling */
 main {
-  background-color: #C7E2E7; /* Set a background color for the main content */
+  background-color: #c7e2e7; /* Set a background color for the main content */
   padding: 20px;
 }
 
@@ -58,13 +58,14 @@ main {
 }
 
 .event-title {
-  color: #281E5D;
+  color: #281e5d;
   font-weight: bold;
   text-transform: capitalize;
   font-size: 24px;
 }
 
-.event-date, .event-location {
+.event-date,
+.event-location {
   color: #080402;
 }
 
@@ -81,8 +82,8 @@ main {
 
 .register-button {
   font-weight: bold;
-  border: 2px solid #D0312D;
-  background-color: #D0312D;
+  border: 2px solid #d0312d;
+  background-color: #d0312d;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
@@ -101,7 +102,7 @@ main {
 
 /* Footer CSS Styling */
 footer {
-  background-image: url('footer.jpg');
+  background-image: url("footer.jpg");
   height: 200px;
 }
 

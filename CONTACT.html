@@ -1,202 +1,293 @@
 <!DOCTYPE html>
-<html lang='en'>
-        <head>
-                <meta charset='utf-8'>
-                <title>&#127759; Alumni Homepage</title>
-                <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-                <link href='styles/base.css' rel='stylesheet'>
-                <link href='styles/contact.css' rel='stylesheet'>
-        </head>
-        <body>
-                <header>
-                        <div>
-                                <a href='https://bit.ly/3tkv0SB' target='_blank'>
-                                        <img class='Alumni_connect' src='images/alumni_connect.jpg' alt='an alumni connect inage'>
-                                </a>
-                        </div>
-                        <div>
-                                <h1 class='trademark'>ALUMNI CONNECT</h1>
-                        </div>
-                        <div class='nav_links'>
-                                <a href='HOMEPAGE.html' target='_blank'>Home</a>
-                                <a href='EVENTS.html' target='_blank'>Events</a>
-                                <a href='ABOUT.html' target='_blank'>About</a>
-                                <a href='CONTACT.html' target='_blank'>Contact Us</a>
-                        </div>
-                </header>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>&#127759; Alumni Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles/base.css" rel="stylesheet" />
+    <link href="styles/contact.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <a href="https://bit.ly/3tkv0SB" target="_blank">
+          <img
+            class="Alumni_connect"
+            src="images/alumni_connect.jpg"
+            alt="an alumni connect inage"
+          />
+        </a>
+      </div>
+      <div>
+        <h1 class="trademark">ALUMNI CONNECT</h1>
+      </div>
+      <div class="nav_links">
+        <a href="home.html" target="_blank">Home</a>
+        <a href="events.html" target="_blank">Events</a>
+        <a href="about.html" target="_blank">About</a>
+        <a href="contact.html" target="_blank">Contact Us</a>
+      </div>
+    </header>
 
-		<main>
-			<section>
-				<form action='submit.json' method='post'>
-					<fieldset class='personal_info'>
-						<legend class='personal_info_legend'>Personal Information</legend>
-						<div class='input_space'>
-							<label for='Name'>Name(Required):</label>
-							<input type='text' name='Name' placeholder='Lastname Firstname Middlename(optional)' required>
-						</div>
-						<div class='input_space'>
-							<label for='Email'>Email(Required):</label>
-							<input type='email' name='Email' placeholder='name@domain.com' required>
-						</div>
-						<div class='input_space'>
-							<label for='Phone_Number'>Phone Number(Required):</label>
-							<input type='tel' name='Phone_Number' required>
-						</div>
-						<div class='input_space'>
-							<label for='Date_of_birth'>Date of Birth(Required)</label>
-							<input type='date' name='Date_of_birth' required>
-						</div>
-					</fieldset>
-					<fieldset class='message_info'>
-						<legend class='message_info_legend'>Message Information</legend>
-						<div class='contact_space'>
-							<label class='message_label' for='subject(s)'>Subject(Required):</label>
-							<select name='subject(s)'>
-								<option value='General Inquiry'>General Inquiry</option>
-								<option value='Event Registration'>Event Registration</option>
-								<option value='Technical Support'>Technical Support</option>
-								<option value='Membership Assistance'>Membership Assistance</option>
-								<option value='Website Feedback'>Website Feedback</option>
-								<option value='Alumni Networking'>Alumni Networking</option>
-								<option value='Event Feedback'>Event Feedback</option>
-								<option value='Alumni Association'>Alumni Association</option>
-								<option value='Newsletter Subscription'>Newsletter Subscription</option>
-								<option value='Donations and Fundraising'>Donations and Fundraising</option>
-								<option value='Event Sponsorship'>Event Sponsorship</option>
-								<option value='Collaboration Opportunities'>Collaboration Opportunities</option>
-								<option value='Account Assistance'>Account Assistance</option>
-								<option value='Job Listings'>Job Listings</option>
-								<option value='Other(General)' selected>Other(General)</option>
-							</select>
-						</div>
-						<div class='contact_space'>
-							<label class='message_label' for='message_box'>Message(Required):</label>
-							<textarea name='message_box' rows='5' cols='35' required>Add your message here</textarea>
-						</div>
-						<div class='contact_space'>
-							<p class='message_label message_prompt'>Message Urgency(Required):</p>
-							<div>
-                                                                <input type='radio' name='message_urgency' value='high'>
-								<label class='high' for='message_urgency'>High</label>
-							</div>
-							<div>
-                                                                <input type='radio' name='message_urgency' value='medium'>
-                                                        	<label class='medium' for='message_urgency'>Medium</label>
-							</div>
-							<div>
-                                                                <input type='radio' name='message_urgency' value='low'>								
-                                                        	<label class='low' for='message_urgency'>Low</label>
-							</div>
-						</div>
-						<div class='contact_space'>
-							<p class='message_label'>Preferred Contact Method (Required):</p>
-							<div>
-								<input type='checkbox' name='check_box' value='text message'>
-                                                        	<label class='text_message' for='check_box'>Text Message</label>
-							</div>
-							<div>
-                                                        	<input type='checkbox' name='check_box' value='email' checked>
-								<label class='email' for='check_box'>Email</label>
-							</div>
-							<div>
-                                                        	<input type='checkbox' name='check_box' value='phone call'>
-								<label class='phone_call' for='check_box'>Phone Call</label>
-							</div>
-							<div>
-                                                        	<input type='checkbox' name='check_box' value='whatsapp'>
-								<label class='whatsapp' for='check_box'>Whatsapp</label>
-							</div>
-						</div>
-					</fieldset>
-					<fieldset class='event_info'>
-                                                <legend class='event_legend'>Event Info</legend>
-                                                <div class='event_space'>
-                                                        <p class='message_label'>Alumni Status (Required):</p>
-                                                        <div>
-                                                                <input type='radio' name='alumni_status' value='alumni'>
-                                                                <label class='choice-selection' for='alumni_status'>Alumni</label>
-                                                        </div>
-                                                        <div>
-                                                                <input type='radio' name='alumni_status' value='student'>
-                                                                <label class='choice-selection' for='alumni_status'>Current Student</label>
-                                                        </div>
-                                                </div>
-                                                <div class='event_space'>
-                                                        <label for='graduation_year' class='message_label'>Graduation Year (Required for Alumni):</label>
-                                                        <input class='grad_year' type='number' min='1990' max='2023' name='graduation_year' value='2022' placeholder='Enter a year!'>
-                                                </div>
-                                                <div class='event_space'>
-                                                        <label for='event_registered' class='message_label'>Event Registration Option (Optional):</label>
-                                                        <select class='register_event' name='event_registered'>
-                                                                <option value='Workshop: Building Effective Teams'>Workshop: Building Effective Teams</option>
-                                                                <option value='Digital Marketing Masterclass'>Digital Marketing Masterclass</option>
-                                                                <option value='Finance and Investment Seminar'>Finance and Investment Seminar</option>
-                                                                <option value='Tech Innovation Summit'>Tech Innovation Summit</option>
-                                                                <option value='Homecoming Weekend Celebration'>Homecoming Weekend Celebration</option>
-                                                                <option value='Spring Festival: A Day of Music and Arts'>Spring Festival: A Day of Music and Arts</option>
-                                                                <option value='Student-Alumni Networking Mixer'>Student-Alumni Networking Mixer</option>
-                                                                <option value='Campus Sustainability Workshop'>Campus Sustainability Workshop</option>
-                                                        </select>
-                                                </div>
-						<div class='event_space'>
-                                                        <p class='message_label'>How Did You Hear About Us? (Required):</p>
-                                                        <div>
-                                                                <input type='checkbox' name='about_us' value='google'>
-                                                                <label class='about_us' for='about_us'>Google</label>
-                                                        </div>
-                                                        <div>
-                                                                <input type='checkbox' name='about_us' value='bing'>
-                                                                <label class='about_us' for='about_us'>Bing</label>
-                                                        </div>
-                                                        <div>
-                                                                <input type='checkbox' name='about_us' value='facebook'>
-                                                                <label class='about_us' for='about_us'>Facebook</label>
-                                                        </div>
-                                                        <div>
-                                                                <input type='checkbox' name='about_us' value='referral'>
-                                                                <label class='about_us' for='about_us'>Referral from a friend or family member</label>
-                                                        </div>
-                                                        <div>
-                                                                <input type='checkbox' name='about_us' value='alumni association'>
-                                                                <label class='about_us' for='about_us'>Alumni Association</label>
-                                                        </div>
-                                                        <div>
-                                                                <input type='checkbox' name='about_us' value='university website' checked>
-                                                                <label class='about_us' for='about_us'>University Website</label>
-                                                        </div>
-                                                        <div>
-                                                                <input type='checkbox' name='about_us' value='event'>
-                                                                <label class='about_us' for='about_us'>Event or Workshop</label>
-                                                        </div>
-                                                        <div>
-                                                                <input type='checkbox' name='about_us' value='whatsapp'>
-                                                                <label class='about_us' for='about_us'>Whatsapp</label>
-                                                        </div>
-						</div>
-					</fieldset>
-					<fieldset class='send_form'>
-						<legend class='send_form_legend'>Send Form</legend>
-						<div class='submission_space'>
-							<input class='submit_style' type='submit' name='submission' value='Send'>
-						</div>
-					</fieldset>
-				</form>
-			</section>
-		</main>
-		<footer>
-                        <div class='footer_container'>
-                                <div class='alumni_cont'>
-                                        <a href='https://bit.ly/3tkv0SB' target='_blank'>
-                                                <img class='Alumni_connect' src='images/alumni_connect.jpg' alt='an alumni connect inage'>
-                                        </a>
-                                </div>
-                                <div class='logo_cont'>
-                                        <img src='images/facebook.png' alt='facebook_img'>
-                                        <img src='images/instagram.png' alt='instagram_img'>
-                                        <img src='images/twitter.jpg' alt='twitter_img'>
-                                </div>
-                        </div>
-                        <p>&copy; 2023 African Leadership University. All Rights Reserved.<br>Designed and Developed by group 13</p>
-		</footer>
-	</body>
+    <main>
+      <section>
+        <form action="submit.json" method="post">
+          <fieldset class="personal_info">
+            <legend class="personal_info_legend">Personal Information</legend>
+            <div class="input_space">
+              <label for="Name">Name(Required):</label>
+              <input
+                type="text"
+                name="Name"
+                placeholder="Lastname Firstname Middlename(optional)"
+                required
+              />
+            </div>
+            <div class="input_space">
+              <label for="Email">Email(Required):</label>
+              <input
+                type="email"
+                name="Email"
+                placeholder="name@domain.com"
+                required
+              />
+            </div>
+            <div class="input_space">
+              <label for="Phone_Number">Phone Number(Required):</label>
+              <input type="tel" name="Phone_Number" required />
+            </div>
+            <div class="input_space">
+              <label for="Date_of_birth">Date of Birth(Required)</label>
+              <input type="date" name="Date_of_birth" required />
+            </div>
+          </fieldset>
+          <fieldset class="message_info">
+            <legend class="message_info_legend">Message Information</legend>
+            <div class="contact_space">
+              <label class="message_label" for="subject(s)"
+                >Subject(Required):</label
+              >
+              <select name="subject(s)">
+                <option value="General Inquiry">General Inquiry</option>
+                <option value="Event Registration">Event Registration</option>
+                <option value="Technical Support">Technical Support</option>
+                <option value="Membership Assistance">
+                  Membership Assistance
+                </option>
+                <option value="Website Feedback">Website Feedback</option>
+                <option value="Alumni Networking">Alumni Networking</option>
+                <option value="Event Feedback">Event Feedback</option>
+                <option value="Alumni Association">Alumni Association</option>
+                <option value="Newsletter Subscription">
+                  Newsletter Subscription
+                </option>
+                <option value="Donations and Fundraising">
+                  Donations and Fundraising
+                </option>
+                <option value="Event Sponsorship">Event Sponsorship</option>
+                <option value="Collaboration Opportunities">
+                  Collaboration Opportunities
+                </option>
+                <option value="Account Assistance">Account Assistance</option>
+                <option value="Job Listings">Job Listings</option>
+                <option value="Other(General)" selected>Other(General)</option>
+              </select>
+            </div>
+            <div class="contact_space">
+              <label class="message_label" for="message_box"
+                >Message(Required):</label
+              >
+              <textarea name="message_box" rows="5" cols="35" required>
+Add your message here</textarea
+              >
+            </div>
+            <div class="contact_space">
+              <p class="message_label message_prompt">
+                Message Urgency(Required):
+              </p>
+              <div>
+                <input type="radio" name="message_urgency" value="high" />
+                <label class="high" for="message_urgency">High</label>
+              </div>
+              <div>
+                <input type="radio" name="message_urgency" value="medium" />
+                <label class="medium" for="message_urgency">Medium</label>
+              </div>
+              <div>
+                <input type="radio" name="message_urgency" value="low" />
+                <label class="low" for="message_urgency">Low</label>
+              </div>
+            </div>
+            <div class="contact_space">
+              <p class="message_label">Preferred Contact Method (Required):</p>
+              <div>
+                <input type="checkbox" name="check_box" value="text message" />
+                <label class="text_message" for="check_box">Text Message</label>
+              </div>
+              <div>
+                <input type="checkbox" name="check_box" value="email" checked />
+                <label class="email" for="check_box">Email</label>
+              </div>
+              <div>
+                <input type="checkbox" name="check_box" value="phone call" />
+                <label class="phone_call" for="check_box">Phone Call</label>
+              </div>
+              <div>
+                <input type="checkbox" name="check_box" value="whatsapp" />
+                <label class="whatsapp" for="check_box">Whatsapp</label>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="event_info">
+            <legend class="event_legend">Event Info</legend>
+            <div class="event_space">
+              <p class="message_label">Alumni Status (Required):</p>
+              <div>
+                <input type="radio" name="alumni_status" value="alumni" />
+                <label class="choice-selection" for="alumni_status"
+                  >Alumni</label
+                >
+              </div>
+              <div>
+                <input type="radio" name="alumni_status" value="student" />
+                <label class="choice-selection" for="alumni_status"
+                  >Current Student</label
+                >
+              </div>
+            </div>
+            <div class="event_space">
+              <label for="graduation_year" class="message_label"
+                >Graduation Year (Required for Alumni):</label
+              >
+              <input
+                class="grad_year"
+                type="number"
+                min="1990"
+                max="2023"
+                name="graduation_year"
+                value="2022"
+                placeholder="Enter a year!"
+              />
+            </div>
+            <div class="event_space">
+              <label for="event_registered" class="message_label"
+                >Event Registration Option (Optional):</label
+              >
+              <select class="register_event" name="event_registered">
+                <option value="Workshop: Building Effective Teams">
+                  Workshop: Building Effective Teams
+                </option>
+                <option value="Digital Marketing Masterclass">
+                  Digital Marketing Masterclass
+                </option>
+                <option value="Finance and Investment Seminar">
+                  Finance and Investment Seminar
+                </option>
+                <option value="Tech Innovation Summit">
+                  Tech Innovation Summit
+                </option>
+                <option value="Homecoming Weekend Celebration">
+                  Homecoming Weekend Celebration
+                </option>
+                <option value="Spring Festival: A Day of Music and Arts">
+                  Spring Festival: A Day of Music and Arts
+                </option>
+                <option value="Student-Alumni Networking Mixer">
+                  Student-Alumni Networking Mixer
+                </option>
+                <option value="Campus Sustainability Workshop">
+                  Campus Sustainability Workshop
+                </option>
+              </select>
+            </div>
+            <div class="event_space">
+              <p class="message_label">
+                How Did You Hear About Us? (Required):
+              </p>
+              <div>
+                <input type="checkbox" name="about_us" value="google" />
+                <label class="about_us" for="about_us">Google</label>
+              </div>
+              <div>
+                <input type="checkbox" name="about_us" value="bing" />
+                <label class="about_us" for="about_us">Bing</label>
+              </div>
+              <div>
+                <input type="checkbox" name="about_us" value="facebook" />
+                <label class="about_us" for="about_us">Facebook</label>
+              </div>
+              <div>
+                <input type="checkbox" name="about_us" value="referral" />
+                <label class="about_us" for="about_us"
+                  >Referral from a friend or family member</label
+                >
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="about_us"
+                  value="alumni association"
+                />
+                <label class="about_us" for="about_us"
+                  >Alumni Association</label
+                >
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="about_us"
+                  value="university website"
+                  checked
+                />
+                <label class="about_us" for="about_us"
+                  >University Website</label
+                >
+              </div>
+              <div>
+                <input type="checkbox" name="about_us" value="event" />
+                <label class="about_us" for="about_us">Event or Workshop</label>
+              </div>
+              <div>
+                <input type="checkbox" name="about_us" value="whatsapp" />
+                <label class="about_us" for="about_us">Whatsapp</label>
+              </div>
+            </div>
+          </fieldset>
+          <fieldset class="send_form">
+            <legend class="send_form_legend">Send Form</legend>
+            <div class="submission_space">
+              <input
+                class="submit_style"
+                type="submit"
+                name="submission"
+                value="Send"
+              />
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer_container">
+        <div class="alumni_cont">
+          <a href="https://bit.ly/3tkv0SB" target="_blank">
+            <img
+              class="Alumni_connect"
+              src="images/alumni_connect.jpg"
+              alt="an alumni connect inage"
+            />
+          </a>
+        </div>
+        <div class="logo_cont">
+          <img src="images/facebook.png" alt="facebook_img" />
+          <img src="images/instagram.png" alt="instagram_img" />
+          <img src="images/twitter.jpg" alt="twitter_img" />
+        </div>
+      </div>
+      <p>
+        &copy; 2023 African Leadership University. All Rights Reserved.<br />Designed
+        and Developed by group 13
+      </p>
+    </footer>
+  </body>
 </html>

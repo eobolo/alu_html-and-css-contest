@@ -1,59 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Event Registration</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles/registration.css" rel="stylesheet">
-</head>
-<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles/registration.css" rel="stylesheet" />
+  </head>
+  <body>
     <h1>Event Registration</h1>
     <form id="registration-form">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="event">Select an Event:</label>
-        <select id="event" name="event">
-            <option value="Workshop: Building Effective Teams">Workshop: Building Effective Teams</option>
-            <option value="Digital Marketing Masterclass">Digital Marketing Masterclass</option>
-            <option value="Finance and Investment Seminar">Finance and Investment Seminar</option>
-            <option value="Tech Innovation Summit">Tech Innovation Summit</option>
-            <option value="Homecoming Weekend Celebration">Homecoming Weekend Celebration</option>
-            <option value="Spring Festival: A Day of Music and Arts">Spring Festival: A Day of Music and Arts</option>
-            <option value="Student-Alumni Networking Mixer">Student-Alumni Networking Mixer</option>
-            <option value="Campus Sustainability Workshop">Campus Sustainability Workshop</option>
-        </select>
-        <label for="university">Select Your University:</label>
-        <select id="university" name="university">
-            <option value="African Leadership University (ALU)">African Leadership University (ALU)</option>
-            <option value="University of Rwanda">University of Rwanda</option>
-            <option value="Eastern African Christian College (EACC)">Eastern African Christian College (EACC)</option>
-            <option value="Kigali Integrated College (KIC)">Kigali Integrated College (KIC)</option>
-            <option value="University of Kigali (UoK)">University of Kigali (UoK)</option>
-            <option value="Ruli Higher Institute of Health (RHIH)">Ruli Higher Institute of Health (RHIH)</option>
-            <option value="University of Lay Adventists of Kigali (UNILAK)">University of Lay Adventists of Kigali (UNILAK)</option>
-            <option value="Adventist University of Central and East Africa (AUCA)">Adventist University of Central and East Africa (AUCA)</option>
-            <option value="Akilah Institute for Women, Kigali (AIWK)">Akilah Institute for Women, Kigali (AIWK)</option>
-            <option value="Carnegie Mellon University Rwanda (CMUR)">Carnegie Mellon University Rwanda (CMUR)</option>
-            <option value="Catholic Institute of Kabgayi (ICK)">Catholic Institute of Kabgayi (ICK)</option>
-            <option value="Catholic University of Rwanda (CUR)">Catholic University of Rwanda (CUR)</option>
-            <option value="Hanika Anglican Integrated Polytechnic (HAIP)">Hanika Anglican Integrated Polytechnic (HAIP)</option>
-            <option value="Universite de Kibungo (UNIK)">Universite de Kibungo (UNIK)</option>
-            <option value="Unicaf University Rwanda (UUR)">Unicaf University Rwanda (UUR)</option>
-            <option value="Muhabura Integrated Polytechnic College (MIPC)">Muhabura Integrated Polytechnic College (MIPC)</option>
-            <option value="Institute of Applied Sciences Ruhengeri (INES)">Institute of Applied Sciences Ruhengeri (INES)</option>
-            <option value="Institut Superirieur Pedagogiqe de Gitwe (ISPG)">Institut Superirieur Pedagogiqe de Gitwe (ISPG)</option>
-            <option value="Kibogora Polytechnic (KP)">Kibogora Polytechnic (KP)</option>
-            <option value="Premier ECDE Teachers College (PECDTC)">Premier ECDE Teachers College (PECDTC)</option>
-            <option value="Kigali Independent University (ULK)">Kigali Independent University (ULK)</option>
-            <option value="KIM University">KIM University</option>
-            <option value="Mount Kenya University Kigali Campus (MKU Kigali)">Mount Kenya University Kigali Campus (MKU Kigali)</option>
-            <option value="Protestant Institute of Arts & Social Sciences (PIASS)">Protestant Institute of Arts & Social Sciences (PIASS)</option>
-            <option value="University of Tourism, Technology and Business Studies (UTB)">University of Tourism, Technology and Business Studies (UTB)</option>
-            <option value="University of Technology and Arts of Byumba (UTAB)">University of Technology and Arts of Byumba (UTAB)</option>
-        </select>
-        <button type="submit">Submit</button>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+      <label for="event">Select an Event:</label>
+      <select id="event" name="event">
+        <option value="Workshop: Building Effective Teams">
+          Workshop: Building Effective Teams
+        </option>
+        <option value="Digital Marketing Masterclass">
+          Digital Marketing Masterclass
+        </option>
+        <option value="Finance and Investment Seminar">
+          Finance and Investment Seminar
+        </option>
+        <option value="Tech Innovation Summit">Tech Innovation Summit</option>
+        <option value="Homecoming Weekend Celebration">
+          Homecoming Weekend Celebration
+        </option>
+        <option value="Spring Festival: A Day of Music and Arts">
+          Spring Festival: A Day of Music and Arts
+        </option>
+        <option value="Student-Alumni Networking Mixer">
+          Student-Alumni Networking Mixer
+        </option>
+        <option value="Campus Sustainability Workshop">
+          Campus Sustainability Workshop
+        </option>
+      </select>
+      <label for="university">Select Your University:</label>
+      <select id="university" name="university">
+        <option value="African Leadership University (ALU)">
+          African Leadership University (ALU)
+        </option>
+        <option value="University of Rwanda">University of Rwanda</option>
+        <option value="Eastern African Christian College (EACC)">
+          Eastern African Christian College (EACC)
+        </option>
+        <option value="Kigali Integrated College (KIC)">
+          Kigali Integrated College (KIC)
+        </option>
+        <option value="University of Kigali (UoK)">
+          University of Kigali (UoK)
+        </option>
+        <option value="Ruli Higher Institute of Health (RHIH)">
+          Ruli Higher Institute of Health (RHIH)
+        </option>
+        <option value="University of Lay Adventists of Kigali (UNILAK)">
+          University of Lay Adventists of Kigali (UNILAK)
+        </option>
+        <option value="Adventist University of Central and East Africa (AUCA)">
+          Adventist University of Central and East Africa (AUCA)
+        </option>
+        <option value="Akilah Institute for Women, Kigali (AIWK)">
+          Akilah Institute for Women, Kigali (AIWK)
+        </option>
+        <option value="Carnegie Mellon University Rwanda (CMUR)">
+          Carnegie Mellon University Rwanda (CMUR)
+        </option>
+        <option value="Catholic Institute of Kabgayi (ICK)">
+          Catholic Institute of Kabgayi (ICK)
+        </option>
+        <option value="Catholic University of Rwanda (CUR)">
+          Catholic University of Rwanda (CUR)
+        </option>
+        <option value="Hanika Anglican Integrated Polytechnic (HAIP)">
+          Hanika Anglican Integrated Polytechnic (HAIP)
+        </option>
+        <option value="Universite de Kibungo (UNIK)">
+          Universite de Kibungo (UNIK)
+        </option>
+        <option value="Unicaf University Rwanda (UUR)">
+          Unicaf University Rwanda (UUR)
+        </option>
+        <option value="Muhabura Integrated Polytechnic College (MIPC)">
+          Muhabura Integrated Polytechnic College (MIPC)
+        </option>
+        <option value="Institute of Applied Sciences Ruhengeri (INES)">
+          Institute of Applied Sciences Ruhengeri (INES)
+        </option>
+        <option value="Institut Superirieur Pedagogiqe de Gitwe (ISPG)">
+          Institut Superirieur Pedagogiqe de Gitwe (ISPG)
+        </option>
+        <option value="Kibogora Polytechnic (KP)">
+          Kibogora Polytechnic (KP)
+        </option>
+        <option value="Premier ECDE Teachers College (PECDTC)">
+          Premier ECDE Teachers College (PECDTC)
+        </option>
+        <option value="Kigali Independent University (ULK)">
+          Kigali Independent University (ULK)
+        </option>
+        <option value="KIM University">KIM University</option>
+        <option value="Mount Kenya University Kigali Campus (MKU Kigali)">
+          Mount Kenya University Kigali Campus (MKU Kigali)
+        </option>
+        <option value="Protestant Institute of Arts & Social Sciences (PIASS)">
+          Protestant Institute of Arts & Social Sciences (PIASS)
+        </option>
+        <option
+          value="University of Tourism, Technology and Business Studies (UTB)"
+        >
+          University of Tourism, Technology and Business Studies (UTB)
+        </option>
+        <option value="University of Technology and Arts of Byumba (UTAB)">
+          University of Technology and Arts of Byumba (UTAB)
+        </option>
+      </select>
+      <button type="submit">Submit</button>
     </form>
-</body>
+  </body>
 </html>
