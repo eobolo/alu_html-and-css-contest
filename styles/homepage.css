@@ -1,4 +1,3 @@
-
 /* Body Css Styling*/
 body {
   display: flex;
@@ -101,6 +100,11 @@ main {
 }
 .pad_objs {
   padding: 0 0 0 30px;
+  border: 2px solid black; 
+  border-radius: 8px; 
+  padding: 20px; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+  margin: 10px; 
 }
 .purpose_container {
   height: 190px;
@@ -132,8 +136,8 @@ main {
 }
 .vibrant_community {
   background-color: #022D36;
-  height: 240px;
   padding-top: 15px;
+  padding-bottom: 30px;
 }
 .community {
   text-align: center;
@@ -145,27 +149,61 @@ main {
   flex-direction: row;
   justify-content: space-around;
 }
-.upcoming_events div {
-  background-color: #080402;
-  border-radius: 15px;
-  height: 350px;
-  width: 1100px;
-}
-/*
-.events {
-  padding: 15px 30px 0;
-}
-*/
+
+
 .category1 {
   background-color: #6C7C59;
-  padding: 30px 30px 30px;
 }
 .event_category {
-  padding-bottom: 25px;
   color: white;
   text-align: center;
+  margin: -10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
+.prof_dev{
+  border: 2px solid black; 
+  border-radius: 8px; 
+  padding: 20px; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+  margin: 10px 10px 10px 10px; 
+}
+.learn_more {
+  background-color: #808080;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* text-decoration: none; */
+  
+}
+
+
+.learn_more:hover {
+  background-color: #555;
+}
+
+
+a.learn_more {
+  text-decoration: none !important;
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.center-image img {
+  max-width: 100%; 
+  max-height: 100%; 
+}
 @media screen and (min-width: 769px) {
   .learn_more1 {
     position: relative;
@@ -174,30 +212,10 @@ main {
     width: 100px;
     height: 20px;
   }
-  .learn_more2 {
-    position: relative;
-    top: 60px;
-    left: 30%;
-    width: 100px;
-    height: 20px;
-  }
-  .learn_more3 {
-    position: relative;
-    top: 40px;
-    left: 30%;
-    width: 100px;
-    height: 20px;
-  }
-  .learn_more4 {
-    position: relative;
-    top: 66px;
-    left: 30%;
-    width: 100px;
-    height: 20px;
-  }
-  .event_img{
-    position: relative;
-    left: 29%;
+  .image_container{
+      padding: 0;
+      margin: 0 30px; 
+    
   }
 }
 
@@ -230,41 +248,22 @@ main {
     width: 100px;
     height: 20px;
   }
-  .event_img{
-    position: relative;
-    left: 18%;
+
+  .image_container{
+      padding: 0 15px; 
+      margin: 0; 
+    
   }
+  
+  .upcoming_events {
+    flex-direction: column;
+  }
+
 }
 
 @media screen and (min-width: 769px) {
-  .learn_more5 {
-    position: relative;
-    top: 60px;
-    left: 30%;
-    width: 100px;
-    height: 20px;
-  }
-  .learn_more6 {
-    position: relative;
-    top: 45px;
-    left: 30%;
-    width: 100px;
-    height: 20px;
-  }
-  .learn_more7 {
-    position: relative;
-    top: 45px;
-    left: 30%;
-    width: 100px;
-    height: 20px;
-  }
-  .learn_more8 {
-    position: relative;
-    top: 45px;
-    left: 30%;
-    width: 100px;
-    height: 20px;
-  }
+ 
+
   .event_img1 {
     position: relative;
     left: 34%;
@@ -280,37 +279,9 @@ main {
 }
 
 @media screen and (max-width: 768px) {
-  .learn_more5 {
-    position: relative;
-    top: 70px;
-    left: 17%;
-    width: 100px;
-    height: 20px;
-  }
+ 
   
-  .learn_more6 {
-    position: relative;
-    top: 35px;
-    left: 17%;
-    width: 100px;
-    height: 20px;
-  }
-  
-  .learn_more7 {
-    position: relative;
-    top: 50px;
-    left: 17%;
-    width: 100px;
-    height: 20px;
-  }
-  
-  .learn_more8 {
-    position: relative;
-    top: 53px;
-    left: 17%;
-    width: 100px;
-    height: 20px;
-  }
+
   .event_img1{
     position: relative;
     left: 27%;
@@ -333,8 +304,7 @@ main {
   margin: 0 10px 0 0;
 }
 .category2 {
-  background-color: #607D3B;
-  padding: 30px 30px 30px;
+  background-color: #6C7C59;
 }
 
 /*Footer Css Styling*/
@@ -360,3 +330,4 @@ footer p {
 .logo_count a {
   margin: 0 1em 0 0;
 }
+
